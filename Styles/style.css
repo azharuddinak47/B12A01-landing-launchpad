@@ -66,3 +66,128 @@ span {
     justify-content: center;
     margin: 120px;
 }
+.hero-banner .hero-content {
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.hero-banner .hero-content h1 {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn-hero {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+}
+
+.hero-content .btn-hero:hover {
+    background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin: 50px auto 0 auto;
+    align-items: center;
+}
+
+.feature-content {
+    width: 517px;
+    font-family: "Raleway", sans-serif;
+}
+
+.feature-content p {
+    font-size: 24px;
+}
+
+.feature-title {
+    font-size: 42px;
+}
+
+.feature-description {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #8d8e98;
+}
+
+.btn-feature {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.btn-feature:hover {
+    background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.feature-image img {
+    border-radius: 35px;
+}
+
+.stats-section {
+    max-width: 1140px;
+    width: 100%;
+    height: 306px;
+    margin: 50px auto;
+    padding: 70px 20px;
+    background-color: #e8eafe;
+    border-radius: 16px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.stats-section .stats-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stat-item {
+    min-width: 100px;
+}
+
+.stat-item h3 {
+    font-size: 52px;
+    color: #4f46e5;
+    margin-bottom: 5px;
+}
