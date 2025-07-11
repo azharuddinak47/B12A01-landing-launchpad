@@ -66,6 +66,7 @@ span {
     justify-content: center;
     margin: 120px;
 }
+
 .hero-banner .hero-content {
     text-align: center;
     font-size: 30px;
@@ -191,6 +192,7 @@ span {
     color: #4f46e5;
     margin-bottom: 5px;
 }
+
 .stat-item p {
     font-size: 14px;
     color: #666;
@@ -319,6 +321,7 @@ span {
     flex-wrap: wrap;
     margin: 200px auto 0 auto;
 }
+
 .contact-heading {
     flex: 1 1 300px;
     display: flex;
@@ -416,9 +419,3 @@ span {
     color: #8987A1;
     text-align: center;
 }
-
-
-
-
-
-
