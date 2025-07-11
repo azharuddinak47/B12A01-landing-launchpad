@@ -319,3 +319,106 @@ span {
     flex-wrap: wrap;
     margin: 200px auto 0 auto;
 }
+.contact-heading {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-form {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ecd92b;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.site-footer .container {
+    margin: 50px 0 0 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-nav ul li {
+    list-style: none;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.footer-content .footer-logo {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: inter;
+}
+
+.footer-content p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: inter;
+    color: #8987A1;
+    text-align: center;
+}
+
+
+
+
+
+
