@@ -191,3 +191,131 @@ span {
     color: #4f46e5;
     margin-bottom: 5px;
 }
+.stat-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.testimonials-section {
+    max-width: 1140px;
+    width: 100%;
+    height: 306px;
+    margin: 50px auto;
+    padding: 70px 20px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.testimonials-title {
+    font-size: 42px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+}
+
+.testimonials-grid {
+    display: flex;
+    gap: 24px;
+}
+
+.testimonial-card {
+    width: 500px;
+    min-height: 220px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    padding: 18px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body h2 {
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+
+.card-body p {
+    color: #1E1E1E;
+    font-size: 15px;
+    text-align: left;
+}
+
+.card-author {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.author-info {
+    text-align: left;
+    padding-left: 10px;
+    color: #757575;
+}
+
+.author-info h4 {
+    color: #B3B3B3;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.author-info p {
+    color: #B3B3B3;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-author img {
+    border-radius: 50%;
+}
+
+.cta-section {
+    max-width: 1140px;
+    width: 100%;
+    height: 696px;
+    margin: 120px auto;
+    padding: 70px 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    border-radius: 12px;
+}
+
+.cta-section .cta-image {
+    margin-top: 30px;
+}
+
+.cta-section h1 {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+
+.cta-section .p {
+    font-family: "Raleway", sans-serif;
+    margin: 15px 10px;
+    color: #8987A1;
+}
+
+.contact-section {
+    display: flex;
+    background: #f5f8ff;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 1140px;
+    width: 100%;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: 200px auto 0 auto;
+}
